@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-family: 'Patrick Hand', sans-serif;   
+    overflow: hidden;
+}
+
+header{
+    height: 15%;
+    width: 100%;
+    position: fixed;
+    background-color: peru;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    width: 200px;
+    height: 80px;
+    margin-left: -71px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#hamburger{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.barra{
+    width: 90%;
+    height: 10px;
+    background-color: purple;
+    border-radius: 15%;
+}
+
+@media (min-width: 600px){
+    header nav input{
+        display: inline-block;
+        background-color: rgba(255,69,0,0.3);
+        border: 5px dotted purple;
+        border-right: none;
+        height: 100%;
+        box-sizing: border-box;
+        color: white;
+    }
+
+    @media (min-width: 1060px){
+        #hamburger{
+            display: none;
+}}}
+
